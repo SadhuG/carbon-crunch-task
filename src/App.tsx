@@ -1,73 +1,26 @@
-// image imports
-import logo from "./assets/carbon-crunch-logo.png";
-import handIcon from "./assets/hand-icon.png";
-
-// ui imports
-import { Button } from "./components/ui/button";
+// component imports
+import { EmblaOptionsType } from "embla-carousel";
+import EmblaCarousel from "./components/EmblaCarousel/EmblaCarousel";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  const navMenu = ["Service", "Blog", "About us", "Contact"];
+  const slides = [0, 1, 2, 3, 4];
+  const options: EmblaOptionsType = { loop: true };
+
   return (
     <div>
-      <header>
-        <nav>
-          {/* logo */}
-          <div>
-            <img src={logo} alt="Carbon Crunch Logo" />
-          </div>
-
-          {/* nav items */}
-          <div>
-            {/* nav menu */}
-            <ul>
-              {navMenu.map((item, index) => (
-                <a href="#" key={index}>
-                  <li>{item}</li>
-                </a>
-              ))}
-            </ul>
-
-            <div>
-              <Button>Login</Button>
-              <Button>Book Demo</Button>
-            </div>
-          </div>
-        </nav>
-
-        {/* hero */}
-        <section>
-          {/* tagline */}
-          <div>
-            <img src={handIcon} alt="Hand Waving Icon" />
-            <p>Let’s Save our Environment</p>
-          </div>
-
-          {/* main page heading */}
-          <h1>
-            Streamline Your Sustainability Reporting With{" "}
-            <span>CARBON CRUNCH</span>
-          </h1>
-
-          {/* sub-heading */}
-          <div>
-            <p>
-              <span>95%</span> Accurate Carbon Calculations Trusted by Industry
-              Leaders
-            </p>
-          </div>
-
-          {/* CTA */}
-          <div>
-            <Button>Free Calculator</Button>
-            <Button>Book Demo</Button>
-          </div>
-        </section>
+      <header
+        className={`h-[100vh] w-full bg-[url(./assets/background.png)] bg-cover bg-center py-14`}
+      >
+        <Navbar />
+        <Hero />
       </header>
 
       {/* slider section */}
-      <main>
+      <main className="container mx-auto">
         <section>
-          <div></div>
+          <EmblaCarousel slides={slides} options={options} />
         </section>
       </main>
     </div>

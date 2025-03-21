@@ -72,7 +72,13 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+
 @theme inline {
+  /* User Defined themes */
+  --color-primary-green: #28b30e;
+  --color-secondary-green: #d6ffd0;
+
+  /* shadcn and other themes */
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
