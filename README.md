@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+# Carbon Crunch - Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+This project aims to evaluate the ability to translate a Figma design into a responsive, functional web page while implementing a smooth slider animation. The task involves pixel-perfect design recreation, responsive layout adjustments, and adding subtle micro-interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Task Details
 
-## Expanding the ESLint configuration
+### 1. Recreate the Figma Design
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Design File:** [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1)
+- **Requirements:**
+  - Achieve pixel-perfect accuracy.
+  - Ensure the page is fully responsive across multiple devices.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 2. Implement the Animation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Reference Video:** [3D Animation Inspiration](https://www.youtube.com/watch?v=m8Kd35nyuzw)
+- **Requirements:**
+  - Create a simple 3D animation featuring an item moving across the screen with smooth interactions.
+  - Incorporate smooth transitions and interactive elements (e.g., hover effects, scroll-triggered animations).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Live Preview
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+A live version of the project is hosted on [GitHub Pages](https://your-live-preview-link.com).
+
+## Additional Assets & Credits
+
+- **Images/Icons/Fonts:**  
+  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Unsplash](https://unsplash.com/) file. Font DM Sans from [Google Fonts](https://fonts.google.com/specimen/DM+Sans)
+
+## Approach
+
+1. **Design Translation:**  
+   I carefully analyzed the Figma design and implemented the layout to match the pixel-perfect design while ensuring responsiveness.
+   **Changes:**
+
+   - Slight modifications to spacing ensuring symmetry.
+   - Removed the `Home` link from the navbar as logo acts as the home navigation link.
+   - Only used `DM Sans` font (in heading also) as I was not able to find webfont version of Aeonik.
+
+2. **Slider Animation:**  
+   The carousel animation was built by using [shadcn/ui](https://ui.shadcn.com/) with card design from [uiverse.io](https://uiverse.io/Javierrocadev/brown-kangaroo-82). As it Carbon Crunch looks like a B2B service I kept it light, simple and accessible for users keeping navigation easy. A light-weight site is also easier to load on a variety of systems quickly.
+
+3. **Tech Stack & Tools:**  
+   The project is built with React + Tailwind CSS + Typescript. Tailwind CSS was used for styling, ensuring quick iterations and responsiveness. Typescript for type safety in components and props. The code was structured for clarity and reusability.
+
+4. **Optimization:**  
+   Extra attention was given to performance optimization (e.g., lazy loading of images) and enhancing user interactions with micro-interactions.
+
+5. **Future-Optimization:**  
+   While being a good starter design this website's performance and experience can be improved by:
+   - Improved design system with clear typographical hierarchy.
+   - More contrast between text and background (as the greens were not as contrasting).
+   - Better and simpler background images
+   - Building the site using Next.js and SSG for improved SEO, loading time speed and experience.
+
+---
+
+**Best Regards,**  
+Sudhansh
