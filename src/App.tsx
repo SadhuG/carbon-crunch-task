@@ -72,8 +72,8 @@ const App = () => {
       </header>
 
       {/* slider section */}
-      <main className="max-w-[1440px]">
-        <section className="mx-auto py-20 md:mx-5">
+      <main className="mx-auto max-w-[1440px]">
+        <section className="mx-5 py-20">
           <Carousel
             opts={{
               align: "start",

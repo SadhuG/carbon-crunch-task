@@ -18,7 +18,7 @@ const Navbar = () => {
           {/* nav menu */}
           <ul className="flex space-x-8 rounded-2xl bg-white px-6 py-4 font-medium">
             {navMenu.map((item, index) => (
-              <a href="#" key={index}>
+              <a href="#" key={index} className="hover:underline">
                 <li>{item}</li>
               </a>
             ))}
