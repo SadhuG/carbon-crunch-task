@@ -22,7 +22,7 @@ This project aims to evaluate the ability to translate a Figma design into a res
 
 ## Live Preview
 
-A live version of the project is hosted on [GitHub Pages](https://your-live-preview-link.com).
+A live version of the project is hosted on [GitHub Pages](https://sadhug.github.io/carbon-crunch-task/).
 
 ## Additional Assets & Credits
 
