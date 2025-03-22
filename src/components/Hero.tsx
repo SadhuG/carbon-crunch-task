@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         {/* main page heading */}
-        <h1 className="mb-4 text-4xl font-bold lg:text-center lg:text-6xl">
+        <h1 className="mb-4 text-4xl font-bold md:text-center lg:text-6xl">
           Streamline Your Sustainability Reporting With{" "}
           <span className="text-primary-green">CARBON CRUNCH</span>
         </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
         {/* CTA */}
-        <div className="mt-10 flex space-x-4">
+        <div className="mt-10 flex  space-x-4">
           <Button variant={"white"} size={"tall"}>
             Free Calculator
           </Button>
