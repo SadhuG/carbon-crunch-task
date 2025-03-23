@@ -4,6 +4,10 @@
 
 This project aims to evaluate the ability to translate a Figma design into a responsive, functional web page while implementing a smooth slider animation. The task involves pixel-perfect design recreation, responsive layout adjustments, and adding subtle micro-interactions.
 
+### Improved Version
+[Carbon Crunch Task Redesign](https://github.com/SadhuG/carbon-crunch-redesign). Another submission for the task with improvements across the board with perfomance, styling, tech-stacks and design systems.
+Build keeping the future optimizations below in mind.
+
 ## Task Details
 
 ### 1. Recreate the Figma Design
@@ -43,7 +47,7 @@ A live version of the project is hosted on [GitHub Pages](https://sadhug.github.
    The carousel animation was built by using [shadcn/ui](https://ui.shadcn.com/) with card design from [uiverse.io](https://uiverse.io/Javierrocadev/brown-kangaroo-82). As it Carbon Crunch looks like a B2B service I kept it light, simple and accessible for users keeping navigation easy. A light-weight site is also easier to load on a variety of systems quickly.
 
 3. **Tech Stack & Tools:**  
-   The project is built with React + Tailwind CSS + Typescript. Tailwind CSS was used for styling, ensuring quick iterations and responsiveness. Typescript for type safety in components and props. The code was structured for clarity and reusability.
+   The project is built with React + Tailwind CSS + Typescript. Tailwind CSS was used for styling, ensuring quick iterations and responsiveness. Typescript for type safety in components and props. Vite as the bundler. The code was structured for clarity and reusability.
 
 4. **Optimization:**  
    Extra attention was given to performance optimization (e.g., lazy loading of images) and enhancing user interactions with micro-interactions.
