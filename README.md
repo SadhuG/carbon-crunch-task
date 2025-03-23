@@ -30,8 +30,8 @@ A live version of the project is hosted on [GitHub Pages](https://sadhug.github.
 
 ## Additional Assets & Credits
 
-- **Images/Icons/Fonts:**  
-  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Unsplash](https://unsplash.com/) file. Font DM Sans from [Google Fonts](https://fonts.google.com/specimen/DM+Sans)
+- **Images/Icons/Fonts/Components:**  
+  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Unsplash](https://unsplash.com/) file. Font DM Sans from [Google Fonts](https://fonts.google.com/specimen/DM+Sans). Components are taken from [shadcn/ui](https://ui.shadcn.com/).
 
 ## Approach
 
